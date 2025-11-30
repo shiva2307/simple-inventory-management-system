@@ -1,0 +1,41 @@
+.tagline-card {
+  background: #FFF6E3;
+  border-radius: 18px;
+  padding: 22px 24px;
+  box-shadow: var(--shadow-soft);
+  border: 1px solid var(--border-soft);
+  max-width: 380px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-left: auto;
+  transition: transform 0.18s ease, box-shadow 0.18s ease;
+}
+
+.tagline-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 26px rgba(0,0,0,0.08);
+}
+
+.tagline-title {
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: -0.01em;
+  color: var(--text-main);
+  margin: 0;
+}
+
+.tagline-subtext {
+  font-size: 14px;
+  color: var(--text-subtle);
+  line-height: 1.7;
+  margin: 0;
+}
+
+@media (max-width: 900px) {
+  .tagline-card {
+    max-width: 100%;
+    margin-left: 0;
+  }
+}
