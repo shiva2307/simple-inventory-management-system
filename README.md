@@ -3,6 +3,7 @@
 A lightweight, full-stack inventory management application built with a FastAPI backend and a  frontend using HTML, CSS, and JavaScript (with component-style structure).
 Designed to demonstrate clean API design, SQL integration, and a simple dashboard interface for tracking products.
 
+
 🚀 Features
 
 🗂 Product Inventory Dashboard — view all items in a clean UI
@@ -14,6 +15,7 @@ Designed to demonstrate clean API design, SQL integration, and a simple dashboar
 🗄 SQLAlchemy ORM — clean database model definitions
 
 🎨 Modular Frontend — organized HTML/CSS/JS with reusable components
+
 
 🧱 Tech Stack
 
@@ -32,6 +34,7 @@ HTML
 CSS
 
 JavaScript 
+
 
 Database
 
